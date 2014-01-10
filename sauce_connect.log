@@ -1,0 +1,97 @@
+2014-01-10 13:52:24,105 - sauce_connect:554 - INFO - / Starting \
+2014-01-10 13:52:24,109 - sauce_connect:555 - INFO - Please wait for "You may start your tests" to start your tests.
+2014-01-10 13:52:24,117 - sauce_connect:567 - DEBUG - System is -7.0 hours off UTC
+2014-01-10 13:52:24,118 - sauce_connect:569 - DEBUG - options: {'user': 'isaacm', 'ports': ['49860'], 'domains': ['sauce-connect.proxy'], 'debug_ssh': False, 'tunnel_ports': ['80'], 'allow_unclean_exit': False, 'rest_url': 'https://saucelabs.com/rest/v1', 'logfile': 'sauce_connect.log', 'squid_opts': '', 'boost_mode': True, 'tunnel_identifier': '', 'fast_fail_regexps': '', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False, 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'ssh_port': 443, 'direct_domains': '', 'host': '127.0.0.1'}
+2014-01-10 13:52:24,121 - sauce_connect:570 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.0-r25', 'OwnerPorts': ['49860'], 'Ports': ['80'], 'Platform': 'Java-1.7.0_45-Java_HotSpot-TM-_64-Bit_Server_VM,_24.45-b08,_Oracle_Corporation-on-Mac_OS_X-10.9.1-x86_64', 'Build': '38', 'ScriptRelease': 38, 'ScriptName': 'sauce_connect'}
+2014-01-10 13:52:24,122 - sauce_connect:572 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['49860']
+2014-01-10 13:52:24,134 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:49860 in 4ms
+2014-01-10 13:52:27,795 - sauce_connect:234 - INFO - {"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.0-r25","OwnerPorts":["49860"],"Ports":["80"],"Platform":"Java-1.7.0_45-Java_HotSpot-TM-_64-Bit_Server_VM,_24.45-b08,_Oracle_Corporation-on-Mac_OS_X-10.9.1-x86_64","Build":"38","ScriptRelease":38,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"domain_names":["sauce-connect.proxy"]}
+2014-01-10 13:52:32,796 - sauce_connect:246 - INFO - Tunnel remote VM is provisioned (9e8e9cbce7e745b0b60e073177e3860a)
+2014-01-10 13:52:33,733 - sauce_connect:264 - INFO - Tunnel remote VM is booting ..
+2014-01-10 13:52:48,346 - sauce_connect:268 - INFO - Tunnel remote VM is running at maki76151.miso.saucelabs.com
+2014-01-10 13:52:48,358 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:49860 in 1ms
+2014-01-10 13:52:48,361 - sauce_connect:642 - INFO - Starting connection to tunnel host...
+2014-01-10 13:52:48,361 - sauce_connect:642 - INFO - Connecting to tunnel host maki76151.miso.saucelabs.com as isaacm
+2014-01-10 13:52:48,480 - sauce_connect:642 - INFO - Forwarding Selenium with ephemeral port 49865
+2014-01-10 13:52:48,484 - sauce_connect:642 - INFO - Selenium HTTP proxy listening on port 4445
+2014-01-10 13:52:48,726 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-01-10 13:52:48,744 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: ec0e71811ada40b990a152701390375e
+2014-01-10 13:52:48,747 - sauce_connect:642 - INFO - Connected! You may start your tests.
+2014-01-10 13:53:13,734 - sauce_connect:0 - INFO - GET http://en.wikipedia.org/ -> 301 (737ms)
+2014-01-10 13:53:13,997 - sauce_connect:0 - INFO - GET http://en.wikipedia.org/wiki/Main_Page -> 200 (206ms)
+2014-01-10 13:53:14,302 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/geoiplookup -> 200 (275ms)
+2014-01-10 13:53:14,309 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&* -> 200 (281ms)
+2014-01-10 13:53:14,415 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&* -> 200 (389ms)
+2014-01-10 13:53:14,523 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.uls.nojs%7Cext.visualEditor.viewPageTarget.noscript%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmw.PopUpMediaTransform%7Cskins.common.interface%7Cskins.vector.styles&only=styles&skin=vector&* -> 200 (536ms)
+2014-01-10 13:53:15,506 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Janet_Yellen_official_portrait.jpg/80px-Janet_Yellen_official_portrait.jpg -> 200 (736ms)
+2014-01-10 13:53:15,513 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/9/9d/Commons-logo-31px.png -> 200 (741ms)
+2014-01-10 13:53:15,513 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Wang_Mang.jpg/69px-Wang_Mang.jpg -> 200 (745ms)
+2014-01-10 13:53:15,519 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Chris_Waddle_2012.jpg/66px-Chris_Waddle_2012.jpg -> 200 (748ms)
+2014-01-10 13:53:15,520 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Waveguide-post-filter.JPG/100px-Waveguide-post-filter.JPG -> 200 (753ms)
+2014-01-10 13:53:15,562 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%2CSpinner%7Cjquery.triggerQueueCallback%2CloadingSpinner%2CmwEmbedUtil%7Cmw.MwEmbedSupport&only=scripts&skin=vector&version=20140110T030737Z -> 200 (389ms)
+2014-01-10 13:53:15,650 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Sayornis_phoebe_-Owen_Conservation_Park%2C_Madison%2C_Wisconsin%2C_USA-8.jpg/320px-Sayornis_phoebe_-Owen_Conservation_Park%2C_Madison%2C_Wisconsin%2C_USA-8.jpg -> 200 (875ms)
+2014-01-10 13:53:15,819 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mediawiki-logo.png/35px-Mediawiki-logo.png -> 200 (160ms)
+2014-01-10 13:53:15,857 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/b/bc/Meta-logo-35px.png -> 200 (147ms)
+2014-01-10 13:53:15,864 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/7/7f/Wikibooks-logo-35px.png -> 200 (154ms)
+2014-01-10 13:53:15,996 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/47px-Wikidata-logo.svg.png -> 200 (152ms)
+2014-01-10 13:53:16,033 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/6/60/Wikinews-logo-51px.png -> 200 (118ms)
+2014-01-10 13:53:16,096 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/4/46/Wikiquote-logo-51px.png -> 200 (115ms)
+2014-01-10 13:53:16,098 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/b/b6/Wikisource-logo-35px.png -> 200 (118ms)
+2014-01-10 13:53:16,109 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/b/bf/Wikispecies-logo-35px.png -> 200 (127ms)
+2014-01-10 13:53:16,111 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/static-1.23wmf9/skins/vector/images/search-ltr.png?303-4 -> 200 (128ms)
+2014-01-10 13:53:16,141 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/e/e3/Wikiversity-logo-41px.png -> 200 (140ms)
+2014-01-10 13:53:16,174 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/thumb/d/dd/Wikivoyage-Logo-v3-icon.svg/35px-Wikivoyage-Logo-v3-icon.svg.png -> 200 (110ms)
+2014-01-10 13:53:16,250 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/f/f2/Wiktionary-logo-51px.png -> 200 (131ms)
+2014-01-10 13:53:16,444 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.centralNotice.bannerController%7Cext.centralauth.centralautologin%7Cext.uls.i18n%2Cinit%2Cinterface%2Cmessages%2Cpreferences%2Cwebfonts%7Cext.uls.webfonts.repository%7Cext.visualEditor.viewPageTarget.init%7Cext.wikimediaShopLink.core%7Cjquery.byteLength%2Cclient%2Ccookie%2CdelayedBind%2Ci18n%2CjStorage%2Cjson%2CmwExtension%2Ctipsy%2Cwebfonts%7Cmediawiki.Title%2CUri%2Capi%2Ccldr%2CjqueryMsg%2Clanguage%2Cnotify%2Cuser%2Cutil%7Cmediawiki.language.data%2Cinit%7Cmediawiki.legacy.ajax%2Cwikibits%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.startup%7Cskins.vector.js%7Cwikibase.client.init&skin=vector&version=20140110T030738Z&* -> 200 (438ms)
+2014-01-10 13:53:16,723 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/images/wikimedia-button.png -> 200 (158ms)
+2014-01-10 13:53:16,723 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/static-1.23wmf9/skins/common/images/poweredby_mediawiki_88x31.png -> 200 (160ms)
+2014-01-10 13:53:16,957 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png -> 200 (233ms)
+2014-01-10 13:53:17,062 - sauce_connect:0 - INFO - GET http://login.wikimedia.org/wiki/Special:CentralAutoLogin/checkLoggedIn?type=script&wikiid=enwiki&proto=http -> 200 (392ms)
+2014-01-10 13:53:17,357 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/static-1.23wmf9/extensions/UniversalLanguageSelector/resources/images/cog-sprite.svg?2014-01-02T16:50:00Z -> 200 (109ms)
+2014-01-10 13:53:17,380 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&* -> 200 (109ms)
+2014-01-10 13:53:17,621 - sauce_connect:0 - INFO - GET http://geoiplookup.wikimedia.org/ -> 200 (486ms)
+2014-01-10 13:53:18,063 - sauce_connect:0 - INFO - GET http://meta.wikimedia.org/wiki/Special:BannerRandom?uselang=en&sitename=Wikipedia&project=wikipedia&anonymous=true&bucket=0&country=XX&device=desktop&slot=3 -> 200 (381ms)
+2014-01-10 13:53:18,141 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.articleFeedbackv5.startup%7Cext.eventLogging%2CnavigationTiming%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.uls.eventlogger%7Cext.wikimediaEvents.moduleStorage%7Cjquery.articleFeedbackv5.utils%7Cjquery.autoEllipsis%2CcheckboxShiftClick%2Chidpi%2ChighlightText%2CmakeCollapsible%2Cmw-jump%2Cplaceholder%2Csuggestions%2CtabIndex%7Cmediawiki.action.view.postEdit%7Cmediawiki.hidpi%2Cinspect%2CsearchSuggest%7Cmediawiki.page.ready%7Cmobile.desktop%7Cmw.MwEmbedSupport.style%7Cmw.PopUpMediaTransform%7Cschema.ModuleStorage%2CNavigationTiming%2CUniversalLanguageSelector%7Cskins.vector.collapsibleNav&skin=vector&version=20140110T030738Z&* -> 200 (519ms)
+2014-01-10 13:53:18,249 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/static-current/extensions/UniversalLanguageSelector/data/fontrepo/fonts/Autonym/Autonym.woff?version=20131205 -> 200 (625ms)
+2014-01-10 13:53:18,371 - sauce_connect:0 - INFO - GET http://meta.wikimedia.org/wiki/Special:RecordImpression?result=hide&reason=empty&country=XX&uselang=en&project=wikipedia&db=enwiki&bucket=0&anonymous=true&device=desktop -> 200 (198ms)
+2014-01-10 13:53:18,644 - sauce_connect:0 - INFO - GET http://en.wikipedia.org/w/opensearch_desc.php -> 200 (105ms)
+2014-01-10 13:53:18,799 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/favicon/wikipedia.ico -> 200 (233ms)
+2014-01-10 13:53:21,446 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.uls.ime%2Clanguagenames%2Cmediawiki%7Cjquery.ime%2Culs%7Cjquery.uls.data%2Cgrid&skin=vector&version=20140110T030737Z&* -> 200 (882ms)
+2014-01-10 13:53:21,446 - sauce_connect:0 - INFO - GET http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=Ramen&namespace=0&suggest= -> 200 (323ms)
+2014-01-10 13:53:22,187 - sauce_connect:0 - INFO - GET http://en.wikipedia.org/w/index.php?search=Ramen&button=&title=Special%3ASearch -> 302 (197ms)
+2014-01-10 13:53:22,628 - sauce_connect:0 - INFO - GET http://en.wikipedia.org/wiki/Ramen -> 200 (389ms)
+2014-01-10 13:53:23,121 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.rtlcite%2Cwikihiero%7Cext.uls.nojs%7Cext.visualEditor.viewPageTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmw.PopUpMediaTransform%7Cskins.common.interface%7Cskins.vector.styles&only=styles&skin=vector&* -> 200 (627ms)
+2014-01-10 13:53:23,440 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/static-1.23wmf8/skins/common/images/magnify-clip.png -> 200 (115ms)
+2014-01-10 13:53:23,582 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png -> 200 (257ms)
+2014-01-10 13:53:23,601 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Fresh_ramen_noodle_001.jpg/220px-Fresh_ramen_noodle_001.jpg -> 200 (276ms)
+2014-01-10 13:53:23,601 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/15px-Commons-logo.svg.png -> 200 (277ms)
+2014-01-10 13:53:23,618 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/20px-Wikibooks-logo-en-noslogan.svg.png -> 200 (293ms)
+2014-01-10 13:53:23,720 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Tonkotsu_ramen.JPG/220px-Tonkotsu_ramen.JPG -> 200 (392ms)
+2014-01-10 13:53:23,789 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Soy_ramen.jpg/250px-Soy_ramen.jpg -> 200 (462ms)
+2014-01-10 13:53:23,836 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Kitakatara-men.jpg/150px-Kitakatara-men.jpg -> 200 (177ms)
+2014-01-10 13:53:23,934 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Hakatara-men.jpg/150px-Hakatara-men.jpg -> 200 (174ms)
+2014-01-10 13:53:23,941 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tsukemen.jpg/150px-Tsukemen.jpg -> 200 (182ms)
+2014-01-10 13:53:24,079 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Takayama_ramen.jpg/150px-Takayama_ramen.jpg -> 200 (156ms)
+2014-01-10 13:53:24,081 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Japanese_Salt_flavor_Sapporo_Ramen.JPG/220px-Japanese_Salt_flavor_Sapporo_Ramen.JPG -> 200 (190ms)
+2014-01-10 13:53:24,081 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Aburasoba.jpg/135px-Aburasoba.jpg -> 200 (190ms)
+2014-01-10 13:53:24,111 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Hiyashira-men.jpg/150px-Hiyashira-men.jpg -> 200 (160ms)
+2014-01-10 13:53:24,190 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Butter_Corn_Ramen.JPG/150px-Butter_Corn_Ramen.JPG -> 200 (108ms)
+2014-01-10 13:53:24,311 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Zaru_ramen_Paris.jpg/150px-Zaru_ramen_Paris.jpg -> 200 (197ms)
+2014-01-10 13:53:24,415 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Sapporo_miso_ramen.jpg/150px-Sapporo_miso_ramen.jpg -> 200 (201ms)
+2014-01-10 13:53:24,426 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/High_school_students_eating_Ramen.JPG/220px-High_school_students_eating_Ramen.JPG -> 200 (195ms)
+2014-01-10 13:53:24,546 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/5/58/YakyudoriRamen.jpeg/220px-YakyudoriRamen.jpeg -> 200 (197ms)
+2014-01-10 13:53:24,555 - sauce_connect:0 - INFO - GET http://meta.wikimedia.org/wiki/Special:BannerRandom?uselang=en&sitename=Wikipedia&project=wikipedia&anonymous=true&bucket=0&country=XX&device=desktop&slot=17 -> 200 (340ms)
+2014-01-10 13:53:24,654 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.articleFeedbackv5.startup%7Cext.cite%2CeventLogging%2CnavigationTiming%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.uls.eventlogger%7Cext.wikimediaEvents.moduleStorage%7Cjquery.articleFeedbackv5.utils%7Cjquery.autoEllipsis%2CcheckboxShiftClick%2Chidpi%2ChighlightText%2CmakeCollapsible%2Cmw-jump%2Cplaceholder%2Csuggestions%2CtabIndex%7Cmediawiki.action.view.postEdit%7Cmediawiki.hidpi%2Cinspect%2CsearchSuggest%7Cmediawiki.page.ready%7Cmobile.desktop%7Cmw.MwEmbedSupport.style%7Cmw.PopUpMediaTransform%7Cschema.ModuleStorage%2CNavigationTiming%2CUniversalLanguageSelector%7Cskins.vector.collapsibleNav&skin=vector&version=20140110T030738Z&* -> 200 (539ms)
+2014-01-10 13:53:24,688 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Foodlogo2.svg/32px-Foodlogo2.svg.png -> 200 (220ms)
+2014-01-10 13:53:24,691 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/23px-Wiktionary-logo-en.svg.png -> 200 (221ms)
+2014-01-10 13:53:24,877 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png -> 200 (267ms)
+2014-01-10 13:53:24,964 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Ramen_Noodles_by_David_Shankbone.jpg/220px-Ramen_Noodles_by_David_Shankbone.jpg -> 200 (614ms)
+2014-01-10 13:53:25,049 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/25px-Wikibooks-logo.svg.png -> 200 (180ms)
+2014-01-10 13:53:25,056 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/25px-Wikidata-logo.svg.png -> 200 (156ms)
+2014-01-10 13:53:25,065 - sauce_connect:0 - INFO - GET http://bits.wikimedia.org/images/wikimedia-button.png -> 200 (163ms)
+2014-01-10 13:53:25,069 - sauce_connect:0 - INFO - GET http://meta.wikimedia.org/wiki/Special:RecordImpression?result=hide&reason=empty&country=XX&uselang=en&project=wikipedia&db=enwiki&bucket=0&anonymous=true&device=desktop -> 200 (122ms)
+2014-01-10 13:53:25,089 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/d/d4/Monobook-bullet-star.png -> 200 (101ms)
+2014-01-10 13:53:25,134 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Tokyoramen.jpg/150px-Tokyoramen.jpg -> 200 (116ms)
+2014-01-10 13:53:25,171 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Misora-men2222222.jpg/220px-Misora-men2222222.jpg -> 200 (223ms)
+2014-01-10 13:53:25,171 - sauce_connect:0 - INFO - GET http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png -> 200 (223ms)
+2014-01-10 13:53:29,053 - sauce_connect:0 - INFO - received SIGINT
