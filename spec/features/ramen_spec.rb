@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe "Wikipedia's Ramen Page", :sauce => true do
+describe "RSpec, Wikipedia's Ramen Page", :sauce => true do
   it "Should mention the inventor of instant Ramen" do
     visit "http://en.wikipedia.org/"
     fill_in 'search', :with => "Ramen"
