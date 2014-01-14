@@ -4,6 +4,7 @@ require "sauce"
 require "sauce/capybara"
 Sauce.config do |config|
   config[:browsers] = [
-    ['Mac', 'Chrome', '']
+    ["Windows 8", "Internet Explorer", "10"],             
+    ["Windows 7", "Firefox", "20"]
   ]
 end
